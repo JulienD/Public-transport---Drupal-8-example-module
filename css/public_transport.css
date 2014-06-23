@@ -1,0 +1,11 @@
+#map-canvas {
+    height:500px;
+    weight: 300px;
+}
+#map-canvas h1 {
+    font-size:16px;
+}
+#map-canvas h2 {
+    font-size:14px;
+    font-weight:300;
+}

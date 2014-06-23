@@ -1,0 +1,4 @@
+services:
+  plugin.manager.public_transport.transport:
+    class: Drupal\public_transport\TransportPluginManager
+    parent: default_plugin_manager

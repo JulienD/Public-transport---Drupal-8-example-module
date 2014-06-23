@@ -1,0 +1,16 @@
+public_transport.frontpage:
+  path: 'public-transport'
+  defaults:
+    _title: 'My closest way move'
+    _content: '\Drupal\public_transport\Controller\PublicTransportController::content'
+  requirements:
+    _permission: 'access content'
+
+public_transport.ajax_station:
+  path: 'public-transport/ajax/{transport}'
+  defaults:
+    _content: '\Drupal\public_transport\Controller\PublicTransportAjaxController::ajaxStation'
+  requirements:
+    _permission: 'access content'
+  options:
+    _theme: ajax_base_page

@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function public_transport_theme() {
+  return array(
+    // Template for content of the public transports.
+    'public_transport_page' => array(
+      'template' => 'public-transport-page',
+      'variables' => array(
+        'content' => array(),
+      ),
+    ),
+  );
+}
+
+/**
+ * Implements hook_public_transport_transport_info_alter()
+ */
+function public_transport_transport_info_alter(&$transports) {
+
+}

@@ -1,0 +1,9 @@
+name: Public transport
+description: 'Show the closest public transport next to a location'
+package: Custom
+type: module
+version: 1.0
+core: 8.x
+
+#dependencies:
+#configure: example.admin_index
